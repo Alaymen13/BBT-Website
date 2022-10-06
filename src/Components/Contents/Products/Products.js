@@ -1,8 +1,10 @@
 import React from "react";
 import Product from "./ProductsProps.js";
 import { Element } from "react-scroll";
-import img1 from "../../../Assets/products/img1.jpeg";
-import img2 from "../../../Assets/products/img2.png";
+import etta from "../../../Assets/products/etta.png";
+import inflow from "../../../Assets/products/inflow.svg";
+import turumba from "../../../Assets/products/turumba.png";
+import matrix from "../../../Assets/products/matrix.svg";
 function Products() {
 	return (
 		<Element className="section pt-5" name="Products">
@@ -11,42 +13,42 @@ function Products() {
 			</div>
 			<Product
 				title="ETTA"
-				image={img1}
+				image={etta}
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum."
 				imgOrder="1"
 				desOrder="2"
 			/>
 			<Product
 				title="TERUMBA"
-				image={img2}
+				image={turumba}
 				description="loLorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum.rem"
 				imgOrder="2"
 				desOrder="1"
 			/>
 			<Product
 				title="INFLOW"
-				image={img1}
+				image={inflow}
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum."
 				imgOrder="1"
 				desOrder="2"
 			/>
 			<Product
 				title="CES"
-				image={img2}
+				image={etta}
 				description="loLorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum.rem"
 				imgOrder="2"
 				desOrder="1"
 			/>
 			<Product
-				title="MATRIK 42"
-				image={img1}
+				title="MATRIX 42"
+				image={matrix}
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum."
 				imgOrder="1"
 				desOrder="2"
 			/>
 			<Product
 				title="HELLO TRAFFIC"
-				image={img2}
+				image={etta}
 				description="loLorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum.rem"
 				imgOrder="2"
 				desOrder="1"

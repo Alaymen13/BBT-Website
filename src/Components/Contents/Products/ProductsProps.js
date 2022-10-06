@@ -1,8 +1,13 @@
 import React from "react";
-import img from "../../../Assets/products/img2.png";
 import { Link } from "react-router-dom";
 
-function ProductsProps({ imgOrder, desOrder, title, description, image }) {
+function ProductsProps({
+	imgOrder,
+	desOrder,
+	title,
+	description,
+	image,
+}) {
 	return (
 		<div>
 			<section className="container internal-page-wrapper top-100 p-[50px]">
@@ -37,6 +42,7 @@ function ProductsProps({ imgOrder, desOrder, title, description, image }) {
 						>
 							<div className="prodict-image m-[10px]">
 								<img src={image} alt="" />
+							
 							</div>
 						</div>
 					</div>
