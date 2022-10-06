@@ -1,7 +1,7 @@
 import React from 'react'
 import arrow from "../../Assets/arrow.svg";
-import ecommerce1 from "../../Assets/cards/ecommerce1.png";
-import ecommerce from "../../Assets/cards/ecommerce.png";
+import ecommerce1 from "../../Assets/ecomerce.png";
+// import ecommerce from "../../Assets/cards/ecommerce.png";
 import { Element } from "react-scroll";
 
 
