@@ -1,0 +1,95 @@
+/* NavBar Section */
+.header {
+	background-color: #fff;
+	display: flex;
+	border-bottom: 0.1px solid white;
+	/* padding-top: 15px;
+	padding-bottom: 15px; */
+	width: 100%;
+	box-shadow: 0 2px 4px rgba(81, 107, 152, 0.16);
+}
+
+.logo > img {
+	height: 60px;
+	margin-left: 23px;
+}
+.header .lists {
+	margin-right: 40px;
+	margin-top: 7px;
+	justify-content: space-evenly;
+}
+.header .lists .lists1 > Nav.Link {
+	margin-right: 40px;
+	color: blue;
+	justify-content: space-evenly;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-weight: bold;
+	color: #66023cff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #ffc000ff;
+}
+/* NavBar Section End*/
+
+/* Banner Section */
+
+.banner {
+	background: url("./Assets/bbt.png") no-repeat center center;
+	background-size: cover;
+	color: white;
+	object-fit: contain;
+	height: 680px;
+}
+.banner_fadeRight {
+	width: 50%;
+	height: 100%;
+	background-image: linear-gradient(
+		270deg,
+		transparent,
+		rgba(37, 37, 37, 0.1),
+		#111
+	);
+}
+.banner_fadeLeft {
+	width: 50%;
+	height: 100%;
+
+	background-image: linear-gradient(
+		90deg,
+		transparent,
+		rgba(37, 37, 37, 0.1),
+		#111
+	);
+}
+
+/* Banner Section End*/
+.content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+/*** Card Shadow***/
+.service-item {
+	box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75); */
+}
+
+.dropdown-item a {
+	padding-right: 3em;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.product {
+	transition: transform 0.1s ease-in;
+}
+.product:hover {
+	transform: scale(1.04);
+}
+
+/* Footer Section */
+
+/* Footer Section End*/
