@@ -28,6 +28,7 @@ function Products() {
 			<Product
 				title="INFLOW"
 				image={inflow}
+				pt="[97px]"
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum."
 				imgOrder="1"
 				desOrder="2"
@@ -42,6 +43,7 @@ function Products() {
 			<Product
 				title="MATRIX 42"
 				image={matrix}
+				pt="[97px]"
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore in deserunt sapiente. Corrupti minima aliquid fugiat illum beatae eveniet obcaecati enim aspernatur natus? Labore similique eveniet impedit voluptatum."
 				imgOrder="1"
 				desOrder="2"

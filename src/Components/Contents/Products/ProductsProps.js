@@ -7,6 +7,7 @@ function ProductsProps({
 	title,
 	description,
 	image,
+	pt,
 }) {
 	return (
 		<div>
@@ -40,9 +41,12 @@ function ProductsProps({
 						<div
 							className={`col-sm-6 col-md-6 order-${imgOrder}`}
 						>
-							<div className="prodict-image m-[10px]">
-								<img src={image} alt="" />
-							
+							<div className="prodict-image m-[10px] p-3 product ">
+								<img
+									className={`pt-${pt}`}
+									src={image}
+									alt=""
+								/>
 							</div>
 						</div>
 					</div>

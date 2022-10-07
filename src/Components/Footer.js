@@ -1,5 +1,5 @@
 import React from 'react'
-import footer from "../Assets/footerR.png"
+import footer from "../Assets/footer.png"
 import logo from "../Assets/logow.png"
 function Footer() {
   return (
@@ -13,98 +13,98 @@ function Footer() {
 				<div className="flex pt-36 md:pt-32 lg:pt-40 xl:pt-96   px-4 md:px-6  xl:px-20 flex-col justify-start items-start md:justify-center md:items-center relative z-10">
 					<div className="flex  flex-col items-start justify-start xl:justify-center xl:space-x-8 xl:flex-row">
 						<div className="flex justify-start items-center space-x-4">
-							<div className="cursor-pointer w-[300px]">
+							{/* <div className="cursor-pointer w-[300px]">
 								<img
 									src={logo}
 									alt="logo"
 								/>
-							</div>
+							</div> */}
 						
 						</div>
 						<div className="mt-12 xl:mt-0 grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:gap-y-0 w-full md:w-auto sm:gap-x-20 md:gap-x-28 xl:gap-8">
 							<div className="sm:w-40 md:w-auto xl:w-72 flex justify-start items-start flex-col space-y-6">
-								<h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-black">
+								<h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-[#fff]">
 									Community
 								</h2>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base first-line:   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									About Us
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Guidelines and how to
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Quote from the best
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									How to start a blog
 								</button>
 							</div>
 							<div className="sm:w-40 md:w-auto xl:w-72 flex justify-start items-start flex-col space-y-6">
-								<h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-black">
+								<h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-[#fff]">
 									Getting Started
 								</h2>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									About Us
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Guidelines and how to
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Quote from the best
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									How to start a blog
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Quote from the best
 								</button>
-								<button className="text-left text-basehover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-left text-base   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Guidelines and how to
 								</button>
 							</div>
 							<div className=" xl:w-72 flex justify-start items-start flex-col space-y-6">
-								<h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-black">
+								<h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-[#fff]">
 									Resources
 								</h2>
-								<button className="text-base text-lefthover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-base text-left   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Accessibility
 								</button>
-								<button className="text-base text-lefthover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-base text-left   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Usability
 								</button>
-								<button className="text-base text-lefthover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-base text-left   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Marketplace
 								</button>
-								<button className="text-base text-lefthover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-base text-left   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Design &amp; Dev
 								</button>
-								<button className="text-base text-lefthover:text-[#66023cff  ] leading-none text-black">
+								<button className="text-base text-left   hover:text-[#ffc000ff] leading-none text-[#fff]">
 									Marketplace
 								</button>
 							</div>
 						</div>
 					</div>
 					<div className="mt-12 flex  xl:justify-between xl:flex-row flex-col-reverse items-center xl:items-start w-full ">
-						<p className="mt-10 md:mt-12 xl:mt-0 text-sm leading-none text-black">
+						<p className="mt-10 md:mt-12 xl:mt-0 text-sm leading-none text-[#fff]">
 							2022 Black Bridge Technology. All Rights
 							Reserved
 						</p>
 						<div className="mt-10 md:mt-12 xl:mt-0 md:flex-row flex-col flex md:justify-center w-full md:w-auto justify-start items-start space-y-4 md:space-y-0 md:items-center md:space-x-4 xl:space-x-6">
-							<button className="text-base leading-none text-black hover:text-gray-300">
+							<button className="text-base leading-none text-[#fff] hover:text-gray-300">
 								Terms of service
 							</button>
-							<button className="text-base leading-none text-black hover:text-gray-300">
+							<button className="text-base leading-none text-[#fff] hover:text-gray-300">
 								Privacy Policy
 							</button>
-							<button className="text-base leading-none text-black hover:text-gray-300">
+							<button className="text-base leading-none text-[#fff] hover:text-gray-300">
 								Security
 							</button>
-							<button className="text-base leading-none text-black hover:text-gray-300">
+							<button className="text-base leading-none text-[#fff] hover:text-gray-300">
 								Sitemap
 							</button>
 						</div>
 						<div className="flex  justify-start md:justify-end items-start  w-full md:w-auto md:items-center space-x-6 ">
-							<button className="text-black hover:text-gray-200 w-6">
+							<button className="text-[#fff] hover:text-gray-200 w-6">
 								<svg
 									width={24}
 									height={24}
@@ -118,7 +118,7 @@ function Footer() {
 									/>
 								</svg>
 							</button>
-							<button className="text-black hover:text-gray-200 w-6">
+							<button className="text-[#fff] hover:text-gray-200 w-6">
 								<svg
 									width={24}
 									height={24}
@@ -134,7 +134,7 @@ function Footer() {
 									/>
 								</svg>
 							</button>
-							<button className="text-black hover:text-gray-200 w-6">
+							<button className="text-[#fff] hover:text-gray-200 w-6">
 								<svg
 									width={24}
 									height={24}
@@ -148,7 +148,7 @@ function Footer() {
 									/>
 								</svg>
 							</button>
-							<button className="text-black hover:text-gray-200 w-6">
+							<button className="text-[#fff] hover:text-gray-200 w-6">
 								<svg
 									width={24}
 									height={24}
