@@ -279,11 +279,28 @@ function Header() {
 									title="COMPANY"
 									menuVariant="light"
 								>
-									<NavDropdown.Item href="/Company">
+									<NavDropdown.Item>
+									<Link
+											activeClass="active"
+											to="Company"
+											duration={
+												duration
+											}
+										>
 										Mission{" "}
+										</Link>
 									</NavDropdown.Item>
-									<NavDropdown.Item href="/Company">
+									<NavDropdown.Item>
+										<Link
+											activeClass="active"
+											to="Company"
+											duration={
+												duration
+											}
+										>
+										
 										WWDWWD
+										</Link>
 									</NavDropdown.Item>
 									<NavDropdown.Item href="/Company">
 										Work Values &
