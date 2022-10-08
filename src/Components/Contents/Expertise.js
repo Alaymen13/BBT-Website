@@ -18,7 +18,7 @@ function Expertise() {
 
 				<div class="row g-4 justify-content-center  mx-auto ">
 					<div
-						class="product col-11 col-sm-6 col-lg-4 col-md-6  wow fadeInUp"
+						class="product col-12 col-sm-6 col-lg-4 col-md-6  wow fadeInUp"
 						data-wow-delay="0.5s"
 					>
 						<div
@@ -36,10 +36,10 @@ function Expertise() {
 								alt=""
 							/>
 
-							<h3 class="mb-3 text-[1.2rem] font-bold ">
+							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem] font-bold ">
 								Enterprise System
 							</h3>
-							<p class="mb-[21px]">
+							<p class="mb-[21px] text-[16.8px] sm:text-[17.5px] md:text-[18.3px] lg:text-[19px] ">
 								Enterprise Systems is a crucial
 								component in the health of a
 								company. And BBT participates in
@@ -52,7 +52,7 @@ function Expertise() {
 						</div>
 					</div>
 					<div
-						class=" col-11 col-sm-6 col-lg-4 col-md-6 wow fadeInUp"
+						class=" col-12 col-sm-6 col-lg-4 col-md-6 wow fadeInUp"
 						data-wow-delay="0.5s"
 					>
 						<div
@@ -69,10 +69,10 @@ function Expertise() {
 								src={service}
 								alt=""
 							/>
-							<h3 class="mb-3 text-[1.2rem] font-bold ">
+							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem] font-bold ">
 								Service Management
 							</h3>
-							<p class="mb-[21px]">
+							<p class="mb-[21px] text-[16.8px] sm:text-[17.5px] md:text-[18.3px] lg:text-[19px] ">
 								Service Management is a set of
 								organizational capabilities for
 								enabling value for customers in
@@ -92,7 +92,7 @@ function Expertise() {
 						</div>
 					</div>
 					<div
-						class=" col-11 col-sm-6 col-lg-4 col-md-6 wow fadeInUp "
+						class=" col-12 col-sm-6 col-lg-4 col-md-6 wow fadeInUp "
 						data-wow-delay="0.5s"
 					>
 						<div
@@ -109,10 +109,10 @@ function Expertise() {
 								src={agile}
 								alt=""
 							/>
-							<h3 class="mb-3 text-[1.2rem] font-bold">
+							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem] font-bold">
 								Agile Software Requirements
 							</h3>
-							<p class="mb-[21px]">
+							<p class="mb-[21px] text-[16.8px] sm:text-[17.5px] md:text-[18.3px] lg:text-[19px] ">
 								It’s not only a trend to use
 								Scrum but it’s now a must so
 								that you are able to deliver
@@ -129,7 +129,7 @@ function Expertise() {
 						</div>
 					</div>
 					<div
-						class=" col-11 col-sm-6 col-lg-4 col-md-6 wow fadeInUp"
+						class=" col-12 col-sm-6 col-lg-4 col-md-6 wow fadeInUp"
 						data-wow-delay="0.5s"
 					>
 						<div
@@ -146,10 +146,10 @@ function Expertise() {
 								src={business}
 								alt=""
 							/>
-							<h3 class="mb-3 text-[1.2rem] font-bold">
+							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem] font-bold">
 								Business Process Management
 							</h3>
-							<p class="mb-[21px]">
+							<p class="mb-[21px] text-[16.8px] sm:text-[17.5px] md:text-[18.3px] lg:text-[19px] ">
 								Business Process Management is
 								mainly about streamlining and
 								optimizing your process in a way
@@ -166,7 +166,7 @@ function Expertise() {
 						</div>
 					</div>
 					<div
-						class=" col-11 col-sm-6 col-lg-4 col-md-6 wow fadeInUp"
+						class=" col-12 col-sm-6 col-lg-4 col-md-6 wow fadeInUp"
 						data-wow-delay="0.5s"
 					>
 						<div
@@ -183,10 +183,10 @@ function Expertise() {
 								src={data}
 								alt=""
 							/>
-							<h3 class="mb-3 text-[1.2rem] font-bold">
+							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem] font-bold">
 								Data Management{" "}
 							</h3>
-							<p class="mb-[21px]">
+							<p class="mb-[21px] text-[16.8px] sm:text-[17.5px] md:text-[18.3px] lg:text-[19px] ">
 								We believe that data is a
 								critical business vector, so we
 								armed ourselves with frameworks
