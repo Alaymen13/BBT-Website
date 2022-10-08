@@ -293,7 +293,7 @@ function Header() {
 									<NavDropdown.Item>
 										<Link
 											activeClass="active"
-											to="Company"
+											to="wwdwwd"
 											duration={
 												duration
 											}
@@ -302,9 +302,16 @@ function Header() {
 										WWDWWD
 										</Link>
 									</NavDropdown.Item>
-									<NavDropdown.Item href="/Company">
+									<NavDropdown.Item> 										<Link
+											activeClass="active"
+											to="work"
+											duration={
+												duration
+											}
+										>
 										Work Values &
 										Principles
+										</Link>
 									</NavDropdown.Item>
 								</NavDropdown>
 							</Nav>

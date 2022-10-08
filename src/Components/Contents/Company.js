@@ -9,13 +9,13 @@ function Company() {
 	return (
 		<Element className="section p-5" name="Company">
 			<div>
-				<div className="text-center p-5">
+				<div className="text-center p-4">
 					<div className="text-[2.5rem] p-2">Company</div>
 				</div>
 
 				<div>
 					<div>
-						<div className="text-[2.0rem] text-center p-4">
+						<div className="text-[2.0rem] text-center p-3">
 							Mission
 						</div>
 						<div className="row justify-center flex items-stretch">
@@ -46,7 +46,7 @@ function Company() {
 						</div>
 					</div>
 
-					<div className="">
+						<Element className="section p-5" name="wwdwwd">
 						<div className="text-[1.7rem] text-center mt-12  ">
 							Why We Do What We Do
 						</div>
@@ -85,13 +85,13 @@ function Company() {
 								</div>
 							</div>
 						</div>
-					</div>
+					</Element>
 
-					<div>
+						<Element className="section p-5" name="work">
 						<div className="text-[2.0rem] text-center py-9 pt-20">
 							Work Values & Principles
 						</div>
-						<div className="row justify-center ">
+						<div className="row justify-center p-3">
 							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
 								admit mistakes and shortcomings
 							</div>
@@ -117,18 +117,9 @@ function Company() {
 								sweat the details
 							</div>
 						</div>
+			</Element>
 					</div>
 				</div>
-			</div>
-
-			<div>
-				<div class="row g-4 justify-content-center  mx-auto ">
-					<div
-						class="product col-11 col-sm-8 col-lg-5 col-xxl- col-md-6  wow fadeInUp"
-						data-wow-delay="0.5s"
-					></div>
-				</div>
-			</div>
 		</Element>
 	);
 }

@@ -90,6 +90,16 @@
 	transform: scale(1.04);
 }
 
+.navbar-nav .dropdown-menu {
+	background-color:white;
+	border: none;
+	box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.2);
+}
+.navbar-nav .dropdown-menu .dropdown-item a{
+color:#66023cff }
+
+.navbar-nav .dropdown-menu :hover{
+background-color:rgb(255, 235, 122) ;} 
 /* Footer Section */
 
 /* Footer Section End*/
