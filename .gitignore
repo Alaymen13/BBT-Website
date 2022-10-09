@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 send-email-using-nodejs/
+
+git/

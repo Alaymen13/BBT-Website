@@ -100,6 +100,10 @@ color:#66023cff }
 
 .navbar-nav .dropdown-menu :hover{
 background-color:rgb(255, 235, 122) ;} 
+
+form p {
+	color: red;
+}
 /* Footer Section */
 
 /* Footer Section End*/

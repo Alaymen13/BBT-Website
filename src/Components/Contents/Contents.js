@@ -5,10 +5,12 @@ import Services from "./Services.js";
 import Products from "./Products/Products.js";
 import Company from "./Company.js";
 import ContactUs from "./ContactUs.js";
+import Form from "./Form.js";
 
 function Contents() {
 	return (
 		<div className="pt-[70px]">
+			{/* <Form /> */}
 			<Banner />
 			<Expertise />
 			<Products />

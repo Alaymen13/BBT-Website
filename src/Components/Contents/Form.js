@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-function ContactUs() {
-	const form = useRef();
+
+function Form() {
+const form = useRef();
 
 	const initailValue = { name: "", user_email: "", message: "" };
 	const [formValue, setFormValue] = useState(initailValue);
@@ -18,34 +19,35 @@ function ContactUs() {
 
 	const sendEmail = (e) => {
 		e.preventDefault();
-		setFormErrors(validate(formValue));
-		setIsSubmit(true);
-		if (!Object.keys(formErrors).length === 0 && isSubmit) {
-			emailjs
-				.sendForm(
-					"service_r83hbii",
-					"template_r8wttlq",
-					form.current,
-					"WnB2RJCsqx2QKcaUK"
-				)
-				.then(
-					(result) => {
-						console.log(result.text);
-						console.log("message sent");
-					},
-					(error) => {
-						console.log(error.text);
-					}
-				);
-		}
+setFormErrors(validate(formValue))
+setIsSubmit(true)
+if (Object.keys(formErrors).length === 0 && isSubmit) {
+	emailjs
+		.sendForm(
+			"service_r83hbii",
+			"template_r8wttlq",
+			form.current,
+			"WnB2RJCsqx2QKcaUK"
+		)
+		.then(
+			(result) => {
+				console.log(result.text);
+				console.log("message sent");
+			},
+			(error) => {
+				console.log(error.text);
+			}
+		);
+}
 	};
+	
 
 	useEffect(() => {
 		console.log(formErrors);
 		if (Object.keys(formErrors).length === 0 && isSubmit) {
 			console.log(formValue);
 		}
-	}, [formErrors]);
+	}, [formErrors])
 
 	const validate = (value) => {
 		const errors = {};
@@ -68,10 +70,10 @@ function ContactUs() {
 		<div className="row justify-center pt-5">
 			{Object.keys(formErrors).length === 0 && isSubmit ? (
 				<div className="alert alert-success" role="alert">
-					Thank You! Your message has been sent.
+					Message sent Sucessfully
 				</div>
 			) : (
-				console.log(".")
+				<pre>{JSON.stringify(formValue, 2)}</pre>
 			)}
 
 			<div className="col-6">
@@ -114,55 +116,4 @@ function ContactUs() {
 	);
 }
 
-export default ContactUs;
-
-// sult) => {
-// 					console.log(result.text);
-// 					console.log("message sent");
-// 				},
-// 				(error) => {
-// 					console.log(error.text);
-// 				}
-// 			);
-// 	};
-
-// 	return (
-
-//     	<div className="row justify-content-center">
-// 			<div className=" bg-[#] col-9 col-sm-8 col-md-7 col-lg-6 col-xl-5 ">
-// 				<h1 className="text-[2.2rem] text-center my-4 mb-4">
-// 					Contact Us
-// 				</h1>
-// 				<form className="row" ref={form} onSubmit={sendEmail}>
-// 					<label>Name</label>
-// 					<input
-// 						type="text"
-// 						name="name"
-// 						className="form-control my-2"
-// 					/>
-
-// 					<label>Email</label>
-// 					<input
-// 						type="gmail"
-// 						name="user_email"
-// 						className="form-control my-2"
-// 					/>
-
-// 					<label>Message</label>
-// 					<textarea
-// 						name="message"
-// 						cols="4"
-// 						className="form-control my-2"
-// 					/>
-// 					<input
-// 						type="submit"
-// 						name="Send"
-// 						className="form-control  btn-primary my-4 bg-[#ffc000ff] text-[1.1rem] font-bold text-black hover:bg-[#66023cff]"
-// 					/>
-// 				</form>
-// 			</div>
-// 		</div>
-// 	);
-// };
-
-// export default ContactUs;
+export default Form;
