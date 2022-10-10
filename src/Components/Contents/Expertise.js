@@ -56,8 +56,8 @@ function Expertise() {
 						data-wow-delay="0.5s"
 					>
 						<div
-							class="product service-item bg-[#fbd35d]
-						text-[#66023cff] 
+							class="product service-item bg-[#66023cff]
+						text-[#fbd35d] 
 						sm:bg-[#fff] 
 						sm:text-[#000000]
 						sm:hover:text-[#fbd35d] 
@@ -101,7 +101,7 @@ function Expertise() {
 						sm:bg-[#fff] 
 						sm:text-[#000000]
 						sm:hover:text-[#66023cff] 
-						sm:hover:bg-[#fbd35d] sm:hover:text-[#66023cff]  text-center h-100 p-3 p-xl-5 "
+						sm:hover:bg-[#fbd35d]  text-center h-100 p-3 p-xl-5 "
 						>
 							<img
 								class="inline
@@ -133,8 +133,8 @@ function Expertise() {
 						data-wow-delay="0.5s"
 					>
 						<div
-							class="product service-item bg-[#fbd35d]
-						text-[#66023cff] 
+							class="product service-item bg-[#66023cff]
+						text-[#fbd35d] 
 						sm:bg-[#fff] 
 						sm:text-[#000000]
 						sm:hover:text-[#fbd35d] 
@@ -174,7 +174,7 @@ function Expertise() {
 						text-[#66023cff] 
 						sm:bg-[#fff] 
 						sm:text-[#000000]
-						sm:hover:text-[#66023cff] 
+					
 						sm:hover:bg-[#fbd35d] sm:hover:text-[#66023cff]  text-center h-100 p-3 p-xl-5 "
 						>
 							<img

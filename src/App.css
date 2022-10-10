@@ -104,13 +104,19 @@ color:#66023cff }
 background-color:rgb(255, 235, 122) ;} 
 
 form p {
+	padding-bottom: 10px;
+	margin-top: -5px;
 	color: red;
+	font-size: 15px;
 }
 
-.companyli{
-	color:red;
+.btn-primary {
+	border-color: white;
 }
 
+.aaa {
+	z-index: 1
+}
 /* .navbar-dark-example .navbar-nav .nav-item .nav-link  {
 	color: red;
 	background-color: rgb(196, 22, 22);

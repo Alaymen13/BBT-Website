@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import arrow from "../../Assets/arrow.svg";
 import img1 from "../../Assets/services/enterprise_applications.svg";
 import img2 from "../../Assets/services/enterprise_servicemanagement.svg";
@@ -9,8 +9,9 @@ import img6 from "../../Assets/services/UX-UI design.svg";
 // import ecommerce from "../../Assets/cards/ecommerce.png";
 import { Element } from "react-scroll";
 
+
 function Services() {
-	return (
+  return (
 		<Element className="section p-5 " name="Services">
 			<div className="text-center p-5 ">
 				<div className="text-[2.5rem]">Services</div>
@@ -21,7 +22,7 @@ function Services() {
 					class=" product col-11 col-sm-6 col-lg-4 col-md-6  wow fadeInUp"
 					data-wow-delay="0.3s"
 				>
-					<div class="service-item bg-[#fff] hover:bg-[#fbd35d]  hover:text-[#66023cff]  text-center h-100 p-4 p-xl-5 ">
+					<div class="service-item bg-[#fff] sm:hover:bg-[#fbd35d] sm:hover:text-[#66023cff]  text-center h-100 p-4 p-xl-5 ">
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px] "
@@ -38,8 +39,8 @@ function Services() {
 					data-wow-delay="0.5s"
 				>
 					<div
-						class="service-item bg-[#fff]  hover:bg-[#7e325f]
-						 hover:text-[#fbd35d] text-center h-100 p-4 p-xl-5 "
+						class="service-item bg-[#fff]  sm:hover:bg-[#7e325f]
+						 sm:hover:text-[#fbd35d] text-center h-100 p-4 p-xl-5 "
 					>
 						<img
 							class="inline
@@ -56,7 +57,7 @@ function Services() {
 					class="product col-11 col-sm-6 col-lg-4 col-md-6  wow fadeInUp"
 					data-wow-delay="0.5s"
 				>
-					<div class="service-item bg-[#fff] hover:bg-[#fbd35d]  hover:text-[#66023cff]  text-center h-100 p-4 p-xl-5 ">
+					<div class="service-item bg-[#fff] sm:hover:bg-[#fbd35d] sm:hover:text-[#66023cff]  text-center h-100 p-4 p-xl-5 ">
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px]"
@@ -73,8 +74,8 @@ function Services() {
 					data-wow-delay="0.5s"
 				>
 					<div
-						class="service-item bg-[#fff]  hover:bg-[#7e325f]
-						 hover:text-[#fbd35d]  text-center h-100 p-4 p-xl-5 "
+						class="service-item bg-[#fff]  sm:hover:bg-[#7e325f]
+						 sm:hover:text-[#fbd35d]  text-center h-100 p-4 p-xl-5 "
 					>
 						<img
 							class="inline
@@ -91,7 +92,7 @@ function Services() {
 					class="product col-11 col-sm-6 col-lg-4 col-md-6  wow fadeInUp"
 					data-wow-delay="0.5s"
 				>
-					<div class="service-item bg-[#fff] hover:bg-[#fbd35d]  hover:text-[#66023cff]  text-center h-100 p-4 p-xl-5 ">
+					<div class="service-item bg-[#fff] sm:hover:bg-[#fbd35d] sm:hover:text-[#66023cff]  text-center h-100 p-4 p-xl-5 ">
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px] "
@@ -108,8 +109,8 @@ function Services() {
 					data-wow-delay="0.5s"
 				>
 					<div
-						class="service-item bg-[#fff] hover:bg-[#7e325f]
-						 hover:text-[#fbd35d] text-center h-100 p-4 p-xl-5 "
+						class="service-item bg-[#fff] sm:hover:bg-[#7e325f]
+						 sm:hover:text-[#fbd35d] text-center h-100 p-4 p-xl-5 "
 					>
 						<img
 							class="inline
@@ -124,7 +125,7 @@ function Services() {
 				</div>
 			</div>
 		</Element>
-	);
+  );
 }
 
-export default Services;
+export default Services

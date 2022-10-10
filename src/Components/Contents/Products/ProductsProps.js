@@ -18,7 +18,7 @@ function ProductsProps({
 					</div>
 					<div className="row justify-content-center text-center product-holder h-100 top-50 bottom-50">
 						<div
-							className={`col-sm-6 col-md-6 my-auto order-${desOrder}`}
+							className={`col-sm-6 col-md-6 my-auto order-2 order-sm-${desOrder}`}
 						>
 							<div className="product-title text-[1.8rem]">
 								{title}
@@ -33,7 +33,7 @@ function ProductsProps({
 						</div>
 
 						<div
-							className={`col-sm-6 col-md-6 order-${imgOrder}`}
+							className={`col-sm-6 col-md-6 order-1 order-sm-${imgOrder}`}
 						>
 							<div className="prodict-image m-[10px] p-3 product ">
 								<img
