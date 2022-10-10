@@ -177,6 +177,17 @@ function Header() {
 												duration
 											}
 										>
+											oneHR
+										</Link>
+									</NavDropdown.Item>
+									<NavDropdown.Item>
+										<Link
+											activeClass="active"
+											to="Products"
+											duration={
+												duration
+											}
+										>
 											HELLO TRAFFIC
 										</Link>
 									</NavDropdown.Item>
@@ -318,7 +329,7 @@ function Header() {
 						</Navbar.Collapse>
 						<Navbar.Collapse id="navbar-dark-example lastchild">
 							<Nav>
-								<NavDropdown
+								<NavDropdown 
 									className="companyli"
 									title="CONTACT US"
 									menuVariant="light"
