@@ -81,18 +81,20 @@ function ContactUs() {
 	return (
 		<Element className="section p-5" name="ContactUs">
 			<div className="row justify-center pt-5">
-				{Object.keys(formErrors).length === 0 && isSubmit ? (
-					isAlertVisible &&
-					<div className="alert alert-success" role="alert">
-						Thank You! Your message has been sent.
-					</div>
-				) : (
-					console.log(".")
-				)}
-
-				<div className="col-11 col-sm-9 col-md-7 col-lg-6">
+				<div className="card shadow p-[45px] col-11 col-sm-9 col-md-7 col-lg-6">
+					{Object.keys(formErrors).length === 0 && isSubmit
+						? isAlertVisible && (
+								<div
+									className="alert alert-success"
+									role="alert"
+								>
+									Thank You! Your message
+									has been sent.
+								</div>
+						  )
+						: console.log(".")}
 					<div className="text-center p-4">
-						<div className="text-[2.5rem] p-2 text-center">
+						<div className="sm:text-[2.3rem] md:text-[2.5rem] text-[2rem] p-2 text-center">
 							Contact Us
 						</div>
 					</div>
@@ -131,7 +133,7 @@ function ContactUs() {
 						<input
 							type="submit"
 							name="Send"
-							className="form-control  btn-primary my-4 bg-[#ffc000ff] text-[1.1rem] font-bold text-black hover:bg-[#66023cff]"
+							className="form-control btn-primary shadow-none my-4 bg-[#ffc000ff] text-[1.1rem] font-bold text-black hover:bg-[#66023cff]"
 						/>
 					</form>
 				</div>

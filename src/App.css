@@ -91,17 +91,17 @@
 }
 
 .navbar-nav .dropdown-menu {
-	background-color:white;
+	background-color: white;
 	border: none;
 	box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.2);
 }
-.navbar-nav .dropdown-menu .dropdown-item a:nth-last-child(
+.navbar-nav .dropdown-menu .dropdown-item a:nth-last-child() {
+	color: #66023cff;
+}
 
-){
-color:#66023cff }
-
-.navbar-nav .dropdown-menu :hover{
-background-color:rgb(255, 235, 122) ;} 
+.navbar-nav .dropdown-menu :hover {
+	background-color: rgb(255, 235, 122);
+}
 
 form p {
 	padding-bottom: 10px;
@@ -112,10 +112,29 @@ form p {
 
 .btn-primary {
 	border-color: white;
+	box-shadow: none;
 }
-
+.btn-primary:active {
+	/* background-color: #ffc000ff; */
+	box-shadow: none;
+	border-color: white;
+}
+.btn-primary:focus {
+	color: #111;
+	background-color: rgb(255, 220, 117);
+	box-shadow: rgb(182, 0, 106) 0 -2px 5px 1px;
+	border-color: white;
+}
+.primary:focus {
+	box-shadow: none;
+}
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
 .aaa {
-	z-index: 1
+	z-index: 1;
 }
 /* .navbar-dark-example .navbar-nav .nav-item .nav-link  {
 	color: red;

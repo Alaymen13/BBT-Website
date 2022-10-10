@@ -92,28 +92,28 @@ function Company() {
 							Work Values & Principles
 						</div>
 						<div className="row justify-center p-3">
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
 								admit mistakes and shortcomings
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
 								show empathy
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
 								deliver result
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
 								unite around the mission
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px] text-center   col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center   col-11 col-sm-10 col-md-8 col-lg-5 col-xxl- m-2 p-3">
 								obsess over customers
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3">
 								think and communicate clearly
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3 product">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3 product">
 								rely on work ethic
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[20px]  text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3">
 								sweat the details
 							</div>
 						</div>
