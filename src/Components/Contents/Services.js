@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 import arrow from "../../Assets/arrow.svg";
-import ecommerce1 from "../../Assets/ecomerce.png";
+import img1 from "../../Assets/services/enterprise_applications.svg";
+import img2 from "../../Assets/services/enterprise_servicemanagement.svg";
+import img3 from "../../Assets/services/IT_consultancy.svg";
+import img4 from "../../Assets/services/business_process_eng.svg";
+import img5 from "../../Assets/services/scrum_method.svg";
+import img6 from "../../Assets/services/UX-UI design.svg";
 // import ecommerce from "../../Assets/cards/ecommerce.png";
 import { Element } from "react-scroll";
 
-
 function Services() {
-  return (
+	return (
 		<Element className="section p-5 " name="Services">
 			<div className="text-center p-5 ">
 				<div className="text-[2.5rem]">Services</div>
@@ -21,7 +25,7 @@ function Services() {
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px] "
-							src={ecommerce1}
+							src={img1}
 							alt=""
 						/>
 						<h3 class="m-3 text-[20px] sm:text-[23px] md:text-[25px] lg:text-[25px] font-bold ">
@@ -40,7 +44,7 @@ function Services() {
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px] cart-icon"
-							src={ecommerce1}
+							src={img2}
 							alt=""
 						/>
 						<h3 class="m-3 text-[20px] sm:text-[23px] md:text-[24px] lg:text-[25px] font-bold ">
@@ -56,7 +60,7 @@ function Services() {
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px]"
-							src={ecommerce1}
+							src={img3}
 							alt=""
 						/>
 						<h3 class="m-3 text-[20px] sm:text-[23px] md:text-[24px] lg:text-[25px] font-bold">
@@ -75,7 +79,7 @@ function Services() {
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[87px] md:max-h-[95px] lg:max-h-[115px] "
-							src={ecommerce1}
+							src={img4}
 							alt=""
 						/>
 						<h3 class="m-3 text-[20px] sm:text-[23px] md:text-[24px] lg:text-[25px] font-bold">
@@ -91,11 +95,11 @@ function Services() {
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px] "
-							src={ecommerce1}
+							src={img5}
 							alt=""
 						/>
 						<h3 class="m-3 text-[20px] sm:text-[23px] md:text-[24px] lg:text-[25px] font-bold">
-							Scrum Methodology raining
+							Scrum Methodology Training
 						</h3>
 					</div>
 				</div>
@@ -110,7 +114,7 @@ function Services() {
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px] cart-icon text-yellow-400"
-							src={ecommerce1}
+							src={img6}
 							alt=""
 						/>
 						<h3 class="m-3 text-[20px] sm:text-[23px] md:text-[24px] lg:text-[25px] font-bold ">
@@ -120,7 +124,7 @@ function Services() {
 				</div>
 			</div>
 		</Element>
-  );
+	);
 }
 
-export default Services
+export default Services;

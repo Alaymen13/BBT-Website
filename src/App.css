@@ -3,8 +3,8 @@
 	background-color: #fff;
 	display: flex;
 	border-bottom: 0.1px solid white;
-	/* padding-top: 15px;
-	padding-bottom: 15px; */
+	padding-top: 11px;
+	padding-bottom: 11px;
 	width: 100%;
 	box-shadow: 0 2px 4px rgba(81, 107, 152, 0.16);
 }
@@ -95,7 +95,9 @@
 	border: none;
 	box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.2);
 }
-.navbar-nav .dropdown-menu .dropdown-item a{
+.navbar-nav .dropdown-menu .dropdown-item a:nth-last-child(
+
+){
 color:#66023cff }
 
 .navbar-nav .dropdown-menu :hover{
@@ -104,6 +106,16 @@ background-color:rgb(255, 235, 122) ;}
 form p {
 	color: red;
 }
+
+.companyli{
+	color:red;
+}
+
+/* .navbar-dark-example .navbar-nav .nav-item .nav-link  {
+	color: red;
+	background-color: rgb(196, 22, 22);
+} */
+
 /* Footer Section */
 
 /* Footer Section End*/

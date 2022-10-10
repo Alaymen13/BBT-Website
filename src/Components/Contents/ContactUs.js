@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Element } from "react-scroll";
 
 function ContactUs() {
 	const form = useRef();
@@ -65,6 +66,7 @@ function ContactUs() {
 	};
 
 	return (
+    		<Element className="section p-5" name="ContactUs">
 		<div className="row justify-center pt-5">
 			{Object.keys(formErrors).length === 0 && isSubmit ? (
 				<div className="alert alert-success" role="alert">
@@ -75,6 +77,9 @@ function ContactUs() {
 			)}
 
 			<div className="col-6">
+				<div className="text-center p-4">
+					<div className="text-[2.5rem] p-2">Company</div>
+				</div>
 				<form className="" onSubmit={sendEmail} ref={form}>
 					<label>Name</label>
 					<input
@@ -111,6 +116,7 @@ function ContactUs() {
 				</form>
 			</div>
 		</div>
+    </Element>
 	);
 }
 

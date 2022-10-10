@@ -28,13 +28,7 @@ function ProductsProps({
 							</div>
 
 							<div className="links-wrapper">
-								<ul>
-									<li>
-										<Link to="/product">
-											Learn more
-										</Link>
-									</li>
-								</ul>
+								
 							</div>
 						</div>
 

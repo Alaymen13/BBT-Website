@@ -254,7 +254,7 @@ function Header() {
 										>
 											Scrum
 											Methodology
-											raining
+											Training
 										</Link>
 									</NavDropdown.Item>
 									<NavDropdown.Item>
@@ -316,17 +316,14 @@ function Header() {
 								</NavDropdown>
 							</Nav>
 						</Navbar.Collapse>
-						<Navbar.Collapse id="navbar-dark-example">
+						<Navbar.Collapse id="navbar-dark-example lastchild">
 							<Nav>
 								<NavDropdown
-									id="nav-dropdown-dark-example"
-									title="CONTACT US
-"
+									className="companyli"
+									title="CONTACT US"
 									menuVariant="light"
 								>
-									<NavDropdown.Item href="/ContactUs">
-										Contact Us
-									</NavDropdown.Item>
+								
 								</NavDropdown>
 							</Nav>
 						</Navbar.Collapse>

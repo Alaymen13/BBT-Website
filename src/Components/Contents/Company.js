@@ -23,14 +23,6 @@ function Company() {
 								<img
 									className="max-h-[24rem] sm:max-h-[27rem] md:max-h-[29rem]
 									lg:max-h-[31rem] product "
-									src={mission1}
-									alt=""
-								/>
-							</div>
-							<div className="col-10 col-sm-8 col-md-6 col-lg-4">
-								<img
-									className="max-h-[24rem] sm:max-h-[27rem] md:max-h-[29rem]
-									lg:max-h-[31rem] product"
 									src={mission2}
 									alt=""
 								/>
@@ -40,6 +32,14 @@ function Company() {
 									className="max-h-[24rem] sm:max-h-[27rem] md:max-h-[29rem]
 									lg:max-h-[31rem] product"
 									src={mission3}
+									alt=""
+								/>
+							</div>
+							<div className="col-10 col-sm-8 col-md-6 col-lg-4">
+								<img
+									className="max-h-[24rem] sm:max-h-[27rem] md:max-h-[29rem]
+									lg:max-h-[31rem] product"
+									src={mission1}
 									alt=""
 								/>
 							</div>
