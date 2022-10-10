@@ -35,7 +35,7 @@ function ContactUs() {
 					(result) => {
 						console.log(result.text);
 						console.log("message sent");
-						
+
 					},
 					(error) => {
 						console.log(error.text);
@@ -138,6 +138,7 @@ function ContactUs() {
 						/>
 					</form>
 				</div>
+				
 			</div>
 		</Element>
 	);

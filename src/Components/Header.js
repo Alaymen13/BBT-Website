@@ -291,14 +291,14 @@ function Header() {
 									menuVariant="light"
 								>
 									<NavDropdown.Item>
-									<Link
+										<Link
 											activeClass="active"
 											to="Company"
 											duration={
 												duration
 											}
 										>
-										Mission{" "}
+											Mission{" "}
 										</Link>
 									</NavDropdown.Item>
 									<NavDropdown.Item>
@@ -309,19 +309,20 @@ function Header() {
 												duration
 											}
 										>
-										
-										WWDWWD
+											WWDWWD
 										</Link>
 									</NavDropdown.Item>
-									<NavDropdown.Item> 										<Link
+									<NavDropdown.Item>
+										{" "}
+										<Link
 											activeClass="active"
 											to="work"
 											duration={
 												duration
 											}
 										>
-										Work Values &
-										Principles
+											Work Values &
+											Principles
 										</Link>
 									</NavDropdown.Item>
 								</NavDropdown>
@@ -329,11 +330,23 @@ function Header() {
 						</Navbar.Collapse>
 						<Navbar.Collapse id="navbar-dark-example lastchild">
 							<Nav>
-								<NavDropdown 
+								<NavDropdown
 									className="companyli"
 									title="CONTACT US"
 									menuVariant="light"
 								>
+									<NavDropdown.Item>
+										{" "}
+										<Link
+											activeClass="active"
+											to="ContactUs"
+											duration={
+												duration
+											}
+										>
+											Contact 
+										</Link>
+									</NavDropdown.Item>
 								
 								</NavDropdown>
 							</Nav>
