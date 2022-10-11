@@ -79,8 +79,8 @@
 
 .dropdown-item a {
 	padding-right: 3em;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .product {
@@ -135,6 +135,9 @@ form p {
 }
 .aaa {
 	z-index: 1;
+}
+.contactus{
+	display: flex;
 }
 /* .navbar-dark-example .navbar-nav .nav-item .nav-link  {
 	color: red;
