@@ -28,6 +28,7 @@
 	font-weight: bold;
 	color: #66023cff;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #ffc000ff;
 }
@@ -91,6 +92,7 @@
 }
 
 .navbar-nav .dropdown-menu {
+	
 	background-color: white;
 	border: none;
 	box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.2);
@@ -137,8 +139,17 @@ form p {
 	z-index: 1;
 }
 .contactus{
+	padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	display: flex;
+	color: #66023cff ;
 }
+.contactus:hover{
+	cursor: pointer;
+	color: #ffc000ff
+}
+/* text-[#66023cff] hover:text-[#ffc000ff] */
 /* .navbar-dark-example .navbar-nav .nav-item .nav-link  {
 	color: red;
 	background-color: rgb(196, 22, 22);

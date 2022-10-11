@@ -330,13 +330,17 @@ function Header() {
 						</Navbar.Collapse>
 						<Navbar.Collapse id="navbar-dark-example lastchild">
 							<Nav>
+								<Link
+									activeClass="active"
+									to="ContactUs"
+									duration={duration}
+								>
 								<div className="contactus">
-									<h2>CONTACT US</h2>
-									<a
-										className="dropdown-toggle nav-link"
-										href="#"
-									></a>
+									<div className="font-bold hover:text-[#ffc000ff]">
+										CONTACT US
+									</div>
 								</div>
+								</Link>
 							</Nav>
 						</Navbar.Collapse>
 					</div>
