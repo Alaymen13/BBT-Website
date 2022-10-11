@@ -110,7 +110,7 @@ function Company() {
 							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3">
 								think and communicate clearly
 							</div>
-							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3 product">
+							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3 ">
 								rely on work ethic
 							</div>
 							<div className="sm:hover:bg-[#ffc000] bg-[#f0e7ec] text-[#892f3c] text-[16px] sm:text-[18px] md:text-[20px] text-center  col-11 col-sm-10 col-md-8 col-lg-5 col-xxl-  m-2 p-3">
