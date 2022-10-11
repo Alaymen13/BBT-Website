@@ -36,7 +36,7 @@ function Expertise() {
 								alt=""
 							/>
 
-							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem] font-bold ">
+							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem]  ">
 								Enterprise System
 							</h3>
 							<p class="mb-[21px] text-[16.8px] sm:text-[17.5px] md:text-[18.3px] lg:text-[19px] font-thin">
