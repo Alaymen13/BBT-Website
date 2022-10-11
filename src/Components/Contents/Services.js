@@ -14,7 +14,7 @@ function Services() {
   return (
 		<Element className="section p-5 " name="Services">
 			<div className="text-center p-5 ">
-				<div className="text-[2.5rem]">Services</div>
+				<div className="text-[2.5rem] title">Services</div>
 			</div>
 
 			<div class="row g-4 justify-content-center mx-auto">
@@ -74,8 +74,8 @@ function Services() {
 					data-wow-delay="0.5s"
 				>
 					<div
-					// sm:hover:bg-[#7e325f]
-					// 	 sm:hover:text-[#fbd35d]  
+						// sm:hover:bg-[#7e325f]
+						// 	 sm:hover:text-[#fbd35d]
 						class="service-item bg-[#fff] text-center h-100 p-4 p-xl-5 "
 					>
 						<img
@@ -109,9 +109,7 @@ function Services() {
 					class="product col-11 col-sm-6 col-lg-4 col-md-6  wow fadeInUp"
 					data-wow-delay="0.5s"
 				>
-					<div
-						class="service-item bg-[#fff]  text-center h-100 p-4 p-xl-5 "
-					>
+					<div class="service-item bg-[#fff]  text-center h-100 p-4 p-xl-5 ">
 						<img
 							class="inline
 							img-fluid m-[15px] max-h-[80px] sm:max-h-[85px] md:max-h-[95px] lg:max-h-[100px] cart-icon text-yellow-400"

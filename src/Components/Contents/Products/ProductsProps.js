@@ -20,10 +20,10 @@ function ProductsProps({
 						<div
 							className={`col-sm-6 col-md-6 my-auto order-2 order-sm-${desOrder}`}
 						>
-							<div className="product-title text-[1.8rem]">
+							<div className="product-title text-[1.9rem] product-title">
 								{title}
 							</div>
-							<div className="product-brief">
+							<div className="product-brief text-[1.3rem]">
 								{description}
 							</div>
 

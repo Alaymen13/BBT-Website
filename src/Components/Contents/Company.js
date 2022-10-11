@@ -10,7 +10,7 @@ function Company() {
 		<Element className="section p-5" name="Company">
 			<div>
 				<div className="text-center p-4">
-					<div className="text-[2.5rem] p-2">Company</div>
+					<div className="text-[2.5rem] p-2 title">Company</div>
 				</div>
 
 				<div>

@@ -13,7 +13,9 @@ function Expertise() {
 		<Element className="section p-5" name="Expertise">
 			<div>
 				<div className="text-center p-5">
-					<div className="text-[2.5rem]">Expertise</div>
+					<div className="text-[2.5rem] title">
+						Expertise
+					</div>
 				</div>
 
 				<div class="row g-4 justify-content-center  mx-auto ">

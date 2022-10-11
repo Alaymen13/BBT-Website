@@ -13,7 +13,7 @@ function Products() {
 	return (
 		<Element className="section pt-5" name="Products">
 			<div className="text-center p-5">
-				<div className="text-[2.5rem]">Products</div>
+				<div className="text-[2.5rem] title">Products</div>
 			</div>
 			<Product
 				title="ETTA"
