@@ -12,7 +12,13 @@
 .logo > img {
 	height: 60px;
 	margin-left: 23px;
+	transition: transform 0.1s ease-in
 }
+.logo > img:hover {
+cursor: pointer;
+transform: scale(1.04);
+}
+
 .header .lists {
 	margin-right: 40px;
 	margin-top: 7px;
@@ -75,7 +81,6 @@
 /*** Card Shadow***/
 .service-item {
 	box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.2);
-	/* box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75); */
 }
 
 .dropdown-item a {
@@ -135,9 +140,7 @@ form p {
 	outline: none !important;
 	box-shadow: none;
 }
-.aaa {
-	z-index: 1;
-}
+
 .contactus{
 	padding-left: 2px;
 	padding-top: 5px;
@@ -149,11 +152,6 @@ form p {
 	cursor: pointer;
 	color: #ffc000ff
 }
-/* text-[#66023cff] hover:text-[#ffc000ff] */
-/* .navbar-dark-example .navbar-nav .nav-item .nav-link  {
-	color: red;
-	background-color: rgb(196, 22, 22);
-} */
 
 /* Footer Section */
 

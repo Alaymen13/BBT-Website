@@ -20,9 +20,14 @@ function Header() {
 			className="header fixed  w-full z-20 top-0 left-0 "
 		>
 			<Container>
-				<Links to="/" className="logo">
+				<Link
+					className="logo"
+					activeClass="active"
+					to="Banner"
+					duration={duration}
+				>
 					<img src={logo} alt="logo" />
-				</Links>
+				</Link>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse
 					id="responsive-navbar-nav"
@@ -335,11 +340,11 @@ function Header() {
 									to="ContactUs"
 									duration={duration}
 								>
-								<div className="contactus">
-									<div className="font-bold hover:text-[#ffc000ff]">
-										CONTACT US
+									<div className="contactus">
+										<div className="font-bold hover:text-[#ffc000ff]">
+											CONTACT US
+										</div>
 									</div>
-								</div>
 								</Link>
 							</Nav>
 						</Navbar.Collapse>
