@@ -21,7 +21,7 @@ function ProductsProps({
 					<div className="service-item row my-[20px]justify-content-center text-center product-holder h-100 top-50 bottom-50">
 						<div
 							className={`py-${pyText}
-							px-5
+							
 							col-sm-6 col-md-6 my-auto order-2 order-sm-${desOrder}`}
 						>
 							<div className="product-title text-[1.9rem] product-title">
