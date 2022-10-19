@@ -3,7 +3,7 @@ import footer from "../Assets/footer.png"
 import logo from "../Assets/logow.png"
 function Footer() {
   return (
-		<div className>
+		<div >
 			<div className="relative flex justify-start md:justify-center md:items-end ">
 				<img
 					className="absolute object-cover top-10 h-[460px] w-full xl:mt-10 z-0 footerbg"
