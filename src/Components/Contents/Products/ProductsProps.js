@@ -9,7 +9,7 @@ function ProductsProps({
 	image,
 	pt,
 	pyImage,
-	pyText
+	pyText,
 }) {
 	return (
 		<div>
@@ -20,9 +20,8 @@ function ProductsProps({
 					</div>
 					<div className="service-item row my-[20px]justify-content-center text-center product-holder h-100 top-50 bottom-50">
 						<div
-							className={`py-${pyText}
-							
-							col-sm-6 col-md-6 my-auto order-2 order-sm-${desOrder}`}
+							className={`py-20
+							 col-md-6 my-auto order-2 order-sm-${desOrder}`}
 						>
 							<div className="product-title text-[1.9rem] product-title">
 								{title}
@@ -35,14 +34,12 @@ function ProductsProps({
 						</div>
 
 						<div
-							className={`py-${pyImage} 
-							
-							
-							col-sm-6 col-md-6 order-1 order-sm-${imgOrder}`}
+							className={`py-20
+							 col-md-6 order-1 order-sm-${imgOrder}`}
 						>
-							<div className="prodict-image m-[10px] p-3 product ">
+							<div className="prodict-image m-[10px] p-3 product flex items-center justify-center ">
 								<img
-									className={`pt-${pt}`}
+									className={`pt-${pt} max-h-[300px]`}
 									src={image}
 									alt=""
 								/>
@@ -55,4 +52,4 @@ function ProductsProps({
 	);
 }
 
-export default ProductsProps
+export default ProductsProps;
