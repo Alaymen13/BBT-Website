@@ -30,7 +30,7 @@ function ProductsProps({
 							<div className="product-brief text-[1.3rem]">
 								{description}
 							</div>
-							<div className=" font-semibold text-[18px]">
+							<div className="text-[18px]">
 								<i>{subDis}</i>
 							</div>
 
@@ -39,7 +39,7 @@ function ProductsProps({
 
 						<div
 							className={`py-20
-							 col-md-6 order-1 order-sm-${imgOrder}`}
+							col-md-6 order-1 order-sm-${imgOrder}`}
 						>
 							<div className="prodict-image m-[10px] p-3 product flex items-center justify-center ">
 								<img

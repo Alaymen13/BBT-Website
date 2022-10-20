@@ -53,10 +53,11 @@ function Products() {
 				title="MATRIX 42"
 				image={matrix}
 				pt="[97px]"
-				description="The Forrester WaveTM: Enterprise Service Management (ESM), Q4 2021 - Matrix42 named Strong Performer. Its ESM platform standardize and streamlines your enterprise processes. BBT is a trusted vendor and integrator by th
+				description="The Forrester WaveTM: Enterprise Service Management (ESM), Q4 2021 - Matrix42 named Strong Performer. Its ESM platform standardize and streamlines your enterprise processes. BBT is a trusted reseller and integrator of matrix42 solutions in the african region.
 "
 				imgOrder="first"
 				desOrder="last"
+				
 			/>
 			<Product
 				title="oneHR"
@@ -65,6 +66,7 @@ function Products() {
 "
 				imgOrder="last"
 				desOrder="first"
+				subDis="(Web Based Application)"
 			/>
 			<Product
 				title="HELLO TRAFFIC"
@@ -72,6 +74,7 @@ function Products() {
 				description="In partnership with insurance and traffic management, BBT is kicking off the first traffic management solution aiming to get you back on the road as quick as possible."
 				imgOrder="first"
 				desOrder="last"
+				subDis="(Mobile & Web Based Application)"
 			/>
 		</Element>
 	);

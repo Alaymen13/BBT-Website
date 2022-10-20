@@ -94,7 +94,7 @@ function ContactUs() {
 								</div>
 						  )
 						: console.log(".")}
-					<div className="text-center p-4">
+					<div className="text-center p-2">
 						<div className="sm:text-[2.3rem] md:text-[2.5rem] text-[2rem] p-2 text-center title">
 							Contact Us
 						</div>

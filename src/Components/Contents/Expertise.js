@@ -5,7 +5,7 @@ import enterprise from "../../Assets/expertise/enterprise_systems.svg";
 import service from "../../Assets/expertise/service_management.svg";
 import agile from "../../Assets/expertise/agile_software_requirement.svg";
 import business from "../../Assets/expertise/business_process_management.svg";
-import data from "../../Assets/expertise/data_management.svg"
+import data from "../../Assets/expertise/data_management.svg";
 import { Element } from "react-scroll";
 
 function Expertise() {
@@ -39,7 +39,7 @@ function Expertise() {
 							/>
 
 							<h3 class="mb-3 text-[1.5rem] sm:text-[1.6rem]  md:text-[1.7rem] lg:text-[1.8rem]  ">
-								Enterprise System
+								Enterprise Systems
 							</h3>
 							<p class="mb-[21px] text-[16.8px] sm:text-[17.5px] md:text-[18.3px] lg:text-[19px] font-semibold">
 								Enterprise Systems is a crucial
@@ -49,7 +49,12 @@ function Expertise() {
 								together business processes and
 								enable the flow of information
 								between units to run operations
-								efficiently.
+								efficiently. to do so We
+								developed,
+								<b className="font-semibold">
+									scalable web based and
+									mobile based applications
+								</b>
 							</p>
 						</div>
 					</div>
@@ -209,4 +214,3 @@ function Expertise() {
 }
 
 export default Expertise;
-
