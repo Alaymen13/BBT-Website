@@ -49,10 +49,10 @@ function Expertise() {
 								together business processes and
 								enable the flow of information
 								between units to run operations
-								efficiently. to do so We
-								developed,
+								efficiently.To do so, we
+								develope 
 								<b className="font-semibold">
-									scalable web based and
+									  {" "} scalable web and
 									mobile based applications
 								</b>
 							</p>
