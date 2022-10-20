@@ -43,7 +43,7 @@ transform: scale(1.04);
 /* Banner Section */
 
 .banner {
-	background: url("./Assets/bbt.png") no-repeat center center;
+	background: url("./Assets/bbt11.png") no-repeat center center;
 	background-size: cover;
 	color: white;
 	object-fit: contain;

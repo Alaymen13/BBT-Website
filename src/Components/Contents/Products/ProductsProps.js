@@ -10,6 +10,7 @@ function ProductsProps({
 	pt,
 	pyImage,
 	pyText,
+	subDis,
 }) {
 	return (
 		<div>
@@ -28,6 +29,9 @@ function ProductsProps({
 							</div>
 							<div className="product-brief text-[1.3rem]">
 								{description}
+							</div>
+							<div className=" font-semibold text-[18px]">
+								<i>{subDis}</i>
 							</div>
 
 							<div className="links-wrapper"></div>

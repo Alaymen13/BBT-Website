@@ -22,7 +22,7 @@ function Products() {
 				description="Bringing the world of lottery and e-commerce together"
 				imgOrder="first"
 				desOrder="last"
-				
+				subDis="(Mobile & Web Based Application)"
 			/>
 			<Product
 				title="TERUMBA"
@@ -30,7 +30,7 @@ function Products() {
 				description="Advertisement management platform connecting brand owners and advertising agencies."
 				imgOrder="last"
 				desOrder="first"
-			
+				subDis="(Mobile & Web Based Application)"
 			/>
 			<Product
 				title="INFLOW"
@@ -39,7 +39,7 @@ function Products() {
 				description="Supply chain management system digitalizing every step of the manufacturing process"
 				imgOrder="first"
 				desOrder="last"
-			
+				subDis="(Web Based Application)"
 			/>
 			<Product
 				title="CES"
@@ -47,7 +47,7 @@ function Products() {
 				description="From marketing to production, this cleaning enterprise system is getting adopted quickly by the big names of the sector."
 				imgOrder="last"
 				desOrder="first"
-			
+				subDis="(Web Based Application)"
 			/>
 			<Product
 				title="MATRIX 42"
@@ -57,7 +57,6 @@ function Products() {
 "
 				imgOrder="first"
 				desOrder="last"
-			
 			/>
 			<Product
 				title="oneHR"
@@ -66,7 +65,6 @@ function Products() {
 "
 				imgOrder="last"
 				desOrder="first"
-				
 			/>
 			<Product
 				title="HELLO TRAFFIC"
@@ -74,7 +72,6 @@ function Products() {
 				description="In partnership with insurance and traffic management, BBT is kicking off the first traffic management solution aiming to get you back on the road as quick as possible."
 				imgOrder="first"
 				desOrder="last"
-				
 			/>
 		</Element>
 	);
