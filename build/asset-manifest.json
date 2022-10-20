@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8abc0c56.css",
+    "main.js": "/static/js/main.e322f165.js",
+    "static/media/etta.png": "/static/media/etta.92f2827c03b3e68dd2d1.png",
+    "static/media/bbt11.png": "/static/media/bbt11.71845fcd9560f49765c8.png",
+    "static/media/turumba.png": "/static/media/turumba.324f93ea5a30349b3c5a.png",
+    "static/media/helloTraffic.svg": "/static/media/helloTraffic.550926de4e0b494245b9e77d827ec968.svg",
+    "static/media/work_values_principles.svg": "/static/media/work_values_principles.2385474e0b6a983ab9f64fdef5f694fe.svg",
+    "static/media/logo2.png": "/static/media/logo2.9a8595b4e601474f94ef.png",
+    "static/media/footer.png": "/static/media/footer.a87c09f798f87555e70d.png",
+    "static/media/WWDWWD.svg": "/static/media/WWDWWD.ce21a090b5ef353cc27a5e09d544fc9f.svg",
+    "static/media/content.svg": "/static/media/content.81c77b8e90d9b540e90d3697b21c5269.svg",
+    "static/media/scrum_method.svg": "/static/media/scrum_method.445ef344966355fdad4c4dd5cfd1fdec.svg",
+    "static/media/content(2).svg": "/static/media/content(2).a89950d0d662f1b155c56d77541daf92.svg",
+    "static/media/business_process_eng.svg": "/static/media/business_process_eng.3aa8f52fd9906b33d52783f99a3abe98.svg",
+    "static/media/content(1).svg": "/static/media/content(1).3c58adfb362c25cf52ad37d425425613.svg",
+    "static/media/data_management.svg": "/static/media/data_management.d860807334a55dbfca0858f0d1b9e3d1.svg",
+    "static/media/ces.svg": "/static/media/ces.c433a52364f23c77e361f30439ff33aa.svg",
+    "static/media/business_process_management.svg": "/static/media/business_process_management.db8dffa4a70ae70fcd4e0354cf754ddf.svg",
+    "static/media/service_management.svg": "/static/media/service_management.d319568bcbb1d3ac5ff7ac067753ed0b.svg",
+    "static/media/IT_consultancy.svg": "/static/media/IT_consultancy.abf53223af77c7532a19783f3475edfe.svg",
+    "static/media/UX-UI design.svg": "/static/media/UX-UI design.7b26925e9d3ca7984e58413779024a9b.svg",
+    "static/media/enterprise_servicemanagement.svg": "/static/media/enterprise_servicemanagement.093d3778b22323825e566c4ebd6de5f9.svg",
+    "static/media/enterprise_systems.svg": "/static/media/enterprise_systems.e109fd1310fbe5b5e65536434da7b705.svg",
+    "static/media/agile_software_requirement.svg": "/static/media/agile_software_requirement.ce92abde720a93ce6f140b9262f586b8.svg",
+    "static/media/enterprise_applications.svg": "/static/media/enterprise_applications.32b6720df8a6caa9ee1cfcc7d9d7f08b.svg",
+    "static/media/matrix.svg": "/static/media/matrix.1eb566f435e2078dd8bb34433c3c7a71.svg",
+    "index.html": "/index.html",
+    "static/media/oneHR.svg": "/static/media/oneHR.6bbfa4f144e3a37aa88e6cd707e36244.svg",
+    "static/media/inflow.svg": "/static/media/inflow.c1bf137ffdadfe40603ab4d069d0062f.svg",
+    "static/media/arrow.svg": "/static/media/arrow.ad324db13d442e812e639ff61a03dbee.svg",
+    "main.8abc0c56.css.map": "/static/css/main.8abc0c56.css.map",
+    "main.e322f165.js.map": "/static/js/main.e322f165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8abc0c56.css",
+    "static/js/main.e322f165.js"
+  ]
+}
