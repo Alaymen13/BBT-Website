@@ -1,6 +1,5 @@
 import React from 'react'
 import footer from "../Assets/footer.png"
-import logo from "../Assets/logow.png"
 function Footer() {
   return (
 		<div >
